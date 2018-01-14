@@ -1,0 +1,3 @@
+[console_scripts]
+deathnote = deathnote.deathnote:main
+

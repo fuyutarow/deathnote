@@ -8,7 +8,7 @@ with open('LICENSE', 'r') as f:
 
 setup(
     name='deathnote',
-    version='0.1',
+    version='0.1-alpha1',
     description='Kill process on time.',
     long_description=readme,
     author='FUKUDA Yutaro',

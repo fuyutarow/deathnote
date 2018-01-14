@@ -1,0 +1,57 @@
+Metadata-Version: 1.0
+Name: deathnote
+Version: 0.1a1
+Summary: Kill process on time.
+Home-page: https://github.com/sktnkysh/DeathNote
+Author: FUKUDA Yutaro
+Author-email: sktnkysh+dev@gmai.com
+License: Copyright <YEAR> <COPYRIGHT HOLDER>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Description-Content-Type: UNKNOWN
+Description: # DeathNote 
+        A tool on commandline used to kill process on time. 
+        
+        <p>
+          <img src="https://dingo.care2.com/pictures/petition_images/petition/188/907194-1490205999-wide.jpg" width=300/>
+        </p>
+        
+        ## Requirement
+        - Python 2.7+ or Python 3.5+
+        - pip or pip3
+        
+        ## Installation
+        
+        ```sh
+        pip install deathnote
+        ```
+        
+        
+        ## Usage
+        ```
+        Usage:
+          deathnote <hour> <minute> --pid <pid>
+        ```
+        
+        ## Examples
+        
+        ```sh
+        date
+        # => Sun Jan 14 23:34:58 DST 2018
+        
+        deathnote 23 42 --pid 9646 &
+        # => PID 9646 shall be killed at 23:42:47 on 2018-01-14.
+        ```
+        
+        If you add alias to bashrc, zshrc etc. as below, this will be used more conveniently.
+        ```sh
+        alias dn="deathnote"
+        dn 12 34 --pid 5678
+        ```
+        
+Platform: UNKNOWN

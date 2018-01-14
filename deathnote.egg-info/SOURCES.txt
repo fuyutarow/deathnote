@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+deathnote/__init__.py
+deathnote/__main__.py
+deathnote/deathnote.py
+deathnote.egg-info/PKG-INFO
+deathnote.egg-info/SOURCES.txt
+deathnote.egg-info/dependency_links.txt
+deathnote.egg-info/entry_points.txt
+deathnote.egg-info/top_level.txt
